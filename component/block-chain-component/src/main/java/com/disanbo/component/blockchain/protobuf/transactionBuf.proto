@@ -1,0 +1,35 @@
+syntax = "proto3";
+package com.disanbo.component.blockchain.protobuf;
+
+message Transaction {
+    bytes     execer    = 1;
+    bytes     payload   = 2;
+    Signature signature = 3;
+    int64     fee       = 4;
+    int64     expire    = 5;
+    //随机ID，可以防止payload 相同的时候，交易重复
+    int64 nonce = 6;
+    //对方地址，如果没有对方地址，可以为空
+    string to         = 7;
+    int32  groupCount = 8;
+    bytes  header     = 9;
+    bytes  next       = 10;
+}
+
+//对于一个交易组中的交易，要么全部成功，要么全部失败
+//这个要好好设计一下
+//最好交易构成一个链条[prevhash].独立的交易构成链条
+//只要这个组中有一个执行是出错的，那么就执行不成功
+//三种签名支持
+// ty = 1 -> secp256k1
+// ty = 2 -> ed25519
+// ty = 3 -> sm2
+// ty = 4 -> OnetimeED25519
+// ty = 5 -> RingBaseonED25519
+message Signature {
+    int32 ty     = 1;
+    bytes pubkey = 2;
+    //当ty为5时，格式应该用RingSignature去解析
+    bytes signature = 3;
+}
+

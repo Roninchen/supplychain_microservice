@@ -1,0 +1,36 @@
+server:
+  port: 2323
+
+spring:
+  application:
+    name: supply
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: supply-config
+      label: master
+      profile: config,redis,db
+      username: admin
+      password: rRwcKflUVE3IN3TZOopwo9RI
+      fail-fast: true
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+eureka:
+  instance:
+    ip-address: 192.168.33.234
+    instance-id: ${eureka.instance.ip-address}:${server.port}
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 30
+    lease-expiration-duration-in-seconds: 90
+    metadata-map:
+      ip.address: ${eureka.instance.ip-address}
+      ip.port: ${server.port}
+  client:
+    service-url:
+      defaultZone: http://admin:i3sNstGiSm2BG3HL@172.16.100.32:1111/eureka,http://admin:i3sNstGiSm2BG3HL@172.16.100.33:1111/eureka
+
+

@@ -1,0 +1,32 @@
+feign:
+  httpclient:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 30000
+        readTimeout: 30000
+        loggerLevel: full
+  # \u5F00\u542F\u5BF9\u8BF7\u6C42\u54CD\u5E94\u7684\u538B\u7F29
+  compression:
+    request:
+      enabled: true
+      mime-types: text/xml,application/xml,application/json
+      min-request-size: 2048
+    response:
+      enabled: true
+  # \u662F\u5426\u5F00\u542FFeign\u5BF9Hystrix\u7684\u652F\u6301
+  hystrix:
+    enabled: true
+ribbon:
+  ConnectTimeout: 30000
+  ReadTimeout: 60000
+# Hystrix\u9694\u79BB\u7EA7\u522B
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            timeoutInMilliseconds: 180000

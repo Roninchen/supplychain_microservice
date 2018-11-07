@@ -1,0 +1,67 @@
+Configuration:
+  status: warn
+  strict: true
+
+  Properties:
+    Property:
+    - name: log.level
+      value: info
+    - name: log.pattern
+      value: '%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p [%t] %c - %msg%n'
+    - name: log.path
+      value: /app/logs
+    - name: log.name
+      value: supply-test
+
+  Appenders:
+    Console:
+      name: Console
+      target: SYSTEM_OUT
+      PatternLayout:
+        pattern: ${log.pattern}
+    RollingFile:
+    - name: RollingFileInfo
+      fileName: ${log.path}/${log.name}/info.log
+      filePattern: ${log.path}/${log.name}/$${date:yyyy-MM}/info-%d{yyyy-MM-dd}-%i.log
+      ThresholdFilter:
+        level: INFO
+        onmatch: ACCEPT
+        onMismatch: DENY
+      PatternLayout:
+        pattern: ${log.pattern}
+      Policies:
+        SizeBasedTriggeringPolicy:
+          size: 100 MB
+    - name: RollingFileWarn
+      fileName: ${log.path}/${log.name}/warn.log
+      filePattern: ${log.path}/${log.name}/$${date:yyyy-MM}/warn-%d{yyyy-MM-dd}-%i.log
+      ThresholdFilter:
+        level: WARN
+        onmatch: ACCEPT
+        onMismatch: DENY
+      PatternLayout:
+        pattern: ${log.pattern}
+      Policies:
+        SizeBasedTriggeringPolicy:
+          size: 100 MB
+    - name: RollingFileError
+      fileName: ${log.path}/${log.name}/error.log
+      filePattern: ${log.path}/${log.name}/$${date:yyyy-MM}/error-%d{yyyy-MM-dd}-%i.log
+      ThresholdFilter:
+        level: ERROR
+        onmatch: ACCEPT
+        onMismatch: DENY
+      PatternLayout:
+        pattern: ${log.pattern}
+      Policies:
+        SizeBasedTriggeringPolicy:
+          size: 100 MB
+
+  Loggers:
+    AsyncRoot:
+      level: ${log.level}
+      AppenderRef:
+      - ref: Console
+      - ref: RollingFileInfo
+      - ref: RollingFileWarn
+      - ref: RollingFileError
