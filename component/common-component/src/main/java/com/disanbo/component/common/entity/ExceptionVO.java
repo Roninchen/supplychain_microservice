@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * 异常类
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/8/23 16:31
  */
 @Data

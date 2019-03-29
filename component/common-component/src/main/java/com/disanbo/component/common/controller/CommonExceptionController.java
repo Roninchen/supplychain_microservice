@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 错误处理
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/8/23 10:27
  */
 @RestController

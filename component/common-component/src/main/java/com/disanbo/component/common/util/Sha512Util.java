@@ -5,7 +5,7 @@ import java.security.MessageDigest;
 /**
  * sha1
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/9/14
  */
 public final class Sha512Util {

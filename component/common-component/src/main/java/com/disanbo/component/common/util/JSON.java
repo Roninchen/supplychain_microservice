@@ -6,7 +6,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/11/1 10:52
  */
 

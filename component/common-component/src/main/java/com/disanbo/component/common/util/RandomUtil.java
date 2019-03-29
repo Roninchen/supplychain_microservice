@@ -7,7 +7,7 @@ import java.util.UUID;
 /**
  * 随机数相关方法
  *
- * @author wangtao
+ * @author chauncy
  * @date 2017年11月16日
  */
 public final class RandomUtil {

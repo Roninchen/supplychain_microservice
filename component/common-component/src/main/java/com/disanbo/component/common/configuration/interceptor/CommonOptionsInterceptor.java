@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 预请求拦截器
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/8 15:31
  */
 @Component

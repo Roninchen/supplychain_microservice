@@ -12,7 +12,7 @@ import java.util.concurrent.Executor;
 /**
  * 线程配置
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/7/28
  */
 @Configuration

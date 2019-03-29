@@ -1,7 +1,7 @@
 package com.disanbo.component.common.util;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/24 19:15
  */
 public class ByteUtil {

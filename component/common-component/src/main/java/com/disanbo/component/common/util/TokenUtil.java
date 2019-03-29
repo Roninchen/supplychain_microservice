@@ -3,7 +3,7 @@ package com.disanbo.component.common.util;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/25 12:24
  */
 @Slf4j

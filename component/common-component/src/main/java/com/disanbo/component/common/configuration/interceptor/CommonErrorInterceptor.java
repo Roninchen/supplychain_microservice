@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 默认错误拦截器
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/8/23 15:16
  */
 @Component

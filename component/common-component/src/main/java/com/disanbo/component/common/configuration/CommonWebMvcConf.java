@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 /**
  * 请求拦截器
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/5/29
  */
 @Configuration

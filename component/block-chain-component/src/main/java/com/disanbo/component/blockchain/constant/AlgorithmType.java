@@ -1,7 +1,7 @@
 package com.disanbo.component.blockchain.constant;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/25 10:59
  */
 

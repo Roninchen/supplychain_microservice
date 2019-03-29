@@ -7,7 +7,7 @@ import com.disanbo.component.common.util.Sha256Util;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/24 19:09
  */
 

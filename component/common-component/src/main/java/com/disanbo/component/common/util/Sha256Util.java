@@ -3,7 +3,7 @@ package com.disanbo.component.common.util;
 import java.security.MessageDigest;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/9/14 17:53
  */
 

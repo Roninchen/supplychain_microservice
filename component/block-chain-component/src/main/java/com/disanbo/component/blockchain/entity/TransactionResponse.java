@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * 区块链响应
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/6/15
  */
 @Data

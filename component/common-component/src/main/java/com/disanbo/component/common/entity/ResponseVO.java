@@ -10,7 +10,7 @@ import lombok.Data;
 /**
  * 响应类
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/3/21
  */
 @Data

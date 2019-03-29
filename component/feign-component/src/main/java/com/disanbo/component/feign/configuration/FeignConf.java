@@ -4,7 +4,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/9/19 14:12
  */
 @Configuration

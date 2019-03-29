@@ -3,7 +3,7 @@ package com.disanbo.component.common.util;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/6/15
  */
 

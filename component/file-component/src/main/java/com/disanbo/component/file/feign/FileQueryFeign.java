@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/31 14:47
  */
 @FeignClient(name = "file-base", path = "/api/file")

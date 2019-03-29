@@ -1,7 +1,7 @@
 package com.disanbo.component.common.util;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/8/25 18:02
  */
 

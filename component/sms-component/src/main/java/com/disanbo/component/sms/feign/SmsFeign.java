@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/9/19 11:34
  */
 @FeignClient(name = "sms-base", path = "/api/sms", fallback = SmsFallBack.class)

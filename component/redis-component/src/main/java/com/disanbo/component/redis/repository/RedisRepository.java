@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * springboot 2.0
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/7/31
  */
 @Component

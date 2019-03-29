@@ -16,7 +16,7 @@ import org.spongycastle.crypto.params.ECPrivateKeyParameters;
 import java.security.SecureRandom;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/24 20:42
  */
 

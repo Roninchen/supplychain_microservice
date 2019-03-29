@@ -19,7 +19,7 @@ import org.springframework.web.multipart.MultipartFile;
 import springfox.documentation.annotations.ApiIgnore;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/11/6 17:06
  */
 @Api(tags = "测试接口", description = "提供多种测试方式")

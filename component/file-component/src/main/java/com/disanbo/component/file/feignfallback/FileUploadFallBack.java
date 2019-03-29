@@ -10,7 +10,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.List;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/31 14:44
  */
 @Component

@@ -18,7 +18,7 @@ import java.util.UUID;
 /**
  * ed25519相关方法
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/24 16:39
  */
 public class EdDSAUtil {

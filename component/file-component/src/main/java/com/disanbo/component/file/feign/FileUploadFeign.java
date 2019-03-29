@@ -13,7 +13,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.List;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/31 14:37
  */
 @FeignClient(name = "file-base", path = "/api/file", fallback = FileUploadFallBack.class, configuration = FeignMultipartSupportConf.class)

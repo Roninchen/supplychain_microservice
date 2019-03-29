@@ -13,7 +13,7 @@ import java.util.Locale;
 /**
  * 国际化配置
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/5/9
  */
 

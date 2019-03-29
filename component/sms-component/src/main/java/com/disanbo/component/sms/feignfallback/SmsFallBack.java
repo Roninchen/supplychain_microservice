@@ -7,7 +7,7 @@ import com.disanbo.component.sms.feign.SmsFeign;
 import org.springframework.stereotype.Component;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/9/19 11:53
  */
 @Component

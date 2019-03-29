@@ -5,7 +5,7 @@ import com.disanbo.component.blockchain.entity.BlockProperties;
 import com.disanbo.component.blockchain.repository.BlockChainRepository;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/25 10:56
  */
 public class BlockChainBuilder {

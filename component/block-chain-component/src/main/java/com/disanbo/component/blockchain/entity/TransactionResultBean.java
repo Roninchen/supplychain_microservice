@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 区块链交易详情类
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/6/15
  */
 @Data

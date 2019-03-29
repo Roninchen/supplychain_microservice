@@ -7,7 +7,7 @@ import lombok.Getter;
 /**
  * 用以描述响应的信息
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/4/16
  */
 @Getter

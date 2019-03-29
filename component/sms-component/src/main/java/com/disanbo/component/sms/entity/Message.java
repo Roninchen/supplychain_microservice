@@ -3,7 +3,7 @@ package com.disanbo.component.sms.entity;
 import lombok.Data;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/9/11 20:16
  */
 @Data

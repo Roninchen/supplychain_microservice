@@ -4,7 +4,7 @@ import com.disanbo.component.blockchain.builder.BlockChainBuilder;
 import com.disanbo.component.blockchain.repository.BlockChainRepository;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/25 10:14
  */
 

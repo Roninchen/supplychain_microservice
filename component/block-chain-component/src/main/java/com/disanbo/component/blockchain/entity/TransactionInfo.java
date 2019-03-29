@@ -4,7 +4,7 @@ import com.google.protobuf.ByteString;
 import lombok.Data;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/25 10:45
  */
 @Data

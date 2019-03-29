@@ -7,7 +7,7 @@ import lombok.Data;
 /**
  * 用户基本信息类
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/9/14 21:02
  */
 @Data

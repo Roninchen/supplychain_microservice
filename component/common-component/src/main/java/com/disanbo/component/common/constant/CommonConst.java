@@ -3,7 +3,7 @@ package com.disanbo.component.common.constant;
 /**
  * 通用常量
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/9/11 17:59
  */
 public class CommonConst {

@@ -8,7 +8,7 @@ import java.nio.charset.StandardCharsets;
 import java.security.SecureRandom;
 
 /**
- * @author wangtao
+ * @author chauncy
  * @date 2017/12/15
  */
 public final class AesUtil {

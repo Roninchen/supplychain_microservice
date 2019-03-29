@@ -6,7 +6,7 @@ import lombok.Getter;
 /**
  * 通用响应枚举
  *
- * @author wangtao
+ * @author chauncy
  * @date 2018/10/18 19:07
  */
 @Getter
